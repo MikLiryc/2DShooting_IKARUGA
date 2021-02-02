@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameFramework">
+      <UniqueIdentifier>{cccde409-42c4-4245-8615-71c432ee4f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\매니져">
+      <UniqueIdentifier>{db6058e2-83f6-4c0d-a233-34e042a4969a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\유틸">
+      <UniqueIdentifier>{82ed7401-0ae2-484e-9601-12b179f70e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{9c69a583-1983-4b33-912a-e558098cf29c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\GameNode">
+      <UniqueIdentifier>{8c4b8dd0-80cb-4dc5-bfed-01e6b65dba74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{68b7cb8f-01ee-485e-8a9d-54f0e06f6040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFramework\이미지">
+      <UniqueIdentifier>{b6fcfafa-7e3e-47a2-879c-3a08d1a5cd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{1a65f820-0af6-4a50-a1d1-8955f1bc4e35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>MainGame\GameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>GameFramework\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>GameFramework\이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>GameFramework\매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="BULLET.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="PLAYER.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="ENEMY.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Namespace.cpp">
+      <Filter>GameFramework\유틸</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gameNode.h">
+      <Filter>MainGame\GameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>GameFramework\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>GameFramework\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>GameFramework\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="randomFunction.h">
+      <Filter>GameFramework\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>GameFramework\이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>GameFramework\매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="BULLET.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="PLAYER.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="UNIT.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="ENEMY.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Namespace.h">
+      <Filter>GameFramework\유틸</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
